@@ -1,0 +1,51 @@
+body{
+   
+    background-color:black;
+    color:white;
+}
+#main {
+    padding: 50px;
+    
+}
+#options{
+    list-style-type:none;
+    position:relative;
+    top:200px;
+}
+.screen{
+    width:100%;
+    display:flex;
+    border:10px solid black;
+}
+div{
+    display:flex;
+}
+.screen div{
+    height:300px;
+}
+#fact{
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    width:500px;
+}
+
+#music{
+    display:flex;
+}
+.dashboard{
+    width:100%;
+    display:block;
+    position:relative;
+    top:-100px;
+}
+.dashboard img{
+    width:100%;
+
+}
+#place img{
+    width:500px;
+}
+#people p,#people img{
+    width:230px;
+}

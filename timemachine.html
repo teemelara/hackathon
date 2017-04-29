@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/timemachine.css">
+       <link href="https://fonts.googleapis.com/css?family=Faster+One|Medula+One|Orbitron|Stalinist+One" rel="stylesheet"> 
+    </head>
+    <body>
+        <h1>The Future was Yesterday</h1>
+        <p> Choose your destination</p>
+        <p> Click the door</p>
+        
+        <div>
+            <img class="car" src="images/delorean-body.png">
+            <img class="door" src="images/delorean-door.png">
+            <a class="button" id="year1920" href="1920s.html"> 1920's</a>
+            <a class="button" id="year2020" href="2020.html"> 2020's</a>
+            <a class="button" id="year2050" href="2050.html"> 2050's</a>
+            <a class="button" id="year5050" href="5050.html"> 5050's</a>
+        
+        </div>
+       
+    <script>
+        $(document).ready(function() {
+            $(".door").click(function () {
+                $(".door").slideUp()
+            });
+        });
+        
+        
+        </script>
+    </body>
+</html>
+
+
+

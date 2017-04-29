@@ -1,0 +1,24 @@
+ ul {
+    width:50px;
+    height :40px;
+    padding: 50px;
+    border: 5px solid black;
+}
+
+img{
+    width:400px;
+    height:400px;
+}
+
+
+#musicContent, #peopleContent, #placesContent {
+    display: none;
+}
+
+#gifs{
+  text-align:center;  
+}
+h1 {
+        color:white;
+    }
+  

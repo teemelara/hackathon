@@ -1,0 +1,71 @@
+body {
+    background-image: url("http://4hdwallpapers.com/wp-content/uploads/2013/04/Galaxy-Screen.jpg");
+}
+.car{ 
+    width:400px;
+}
+
+div {
+    position: relative;
+}
+
+.door {
+    position:absolute;
+    width:150px;
+    top:-6px;
+    left:131px;
+    z-index: 10;
+    cursor: pointer; cursor: hand; 
+}
+
+.button {
+    position:absolute;
+    background: #d228de;
+    background-image: linear-gradient(to bottom, #d228de, #2980b9);
+    border-radius: 50px;
+    font-family: Arial;
+    color: white;
+    font-size: 10px;
+    padding: 4px 13px 4px 13px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #493fa6;
+    background-image: linear-gradient(to bottom, #493fa6, #d9349c);
+    text-decoration: none;
+}
+
+#year1920 {
+    top:30px;
+    left:140px ;
+    z-index: 1;
+}
+#year2020{
+    top:30px;
+    left:200px ;
+    z-index: 1;
+}
+#year2050 {
+    top:50px;
+    left:140px ;
+    z-index: 1;
+}
+#year5050 {
+    top:50px;
+    left:200px ;
+    z-index: 1;
+}
+
+h1 {
+    color:blue;
+    font-family: 'Faster One', cursive;
+    
+    
+}
+
+p {
+    color:red;
+    font-family: 'Stalinist One', cursive;
+
+}
